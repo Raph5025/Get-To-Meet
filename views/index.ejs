@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <%- include('./partials/head.ejs') %>
+<body>
+    <div id="page-website">
+        <%- include('./partials/header.ejs') %>
+
+        <main id="main-feed">
+            <div id="posting-message">
+                <img id="profile-pic" src="/PersonPicture.svg" class="profile-picture" alt="profile picture">
+                <input type="text">
+                <p><img src="/Gallery.svg" alt="photos">Photos</p>
+            </div>
+
+            <div id="posts">
+                <div id="posts-header">
+                    <div id="profile-group">
+                        <img src="/PersonPicture.svg" class="profile-picture" alt="Profile Picture" width="35px" id="posts-profile-pic">
+                        <div>
+                            <p>Guest</p>
+                            <p id="post-time">14h</p>
+                        </div>
+                    </div>
+                    <img src="/OptionsDots.svg" alt="options">
+                </div>
+                    <p>One of the saddest if not the saddest moment of One Piece!!!!!</p>
+                    <img id="posts-image" src="/luffy_ace.jpg" width="300px" alt="Photo of the one of the saddest moments">
+                <div id="like-comment">
+                    <img src="/LikeButton.svg" alt="Like Button">
+                    <img src="/CommentButton.svg" alt="Comment Button">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

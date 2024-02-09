@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <%- include('../partials/head') %>
+<body>
+    <div id="page-website">
+        <%- include('../partials/header') %>
+        <main id="main-setting">
+            <div id="dark-mode">
+                <h1>Dark Mode</h1>
+                <label for="dark-mode-label" id="switch">On
+                    <div id="switch-button">
+                        <input id="switch-input" type="checkbox" name="dark-mode-label" checked/>
+                        <div id="switch-background"></div>
+                    </div>
+                </label>
+            </div>
+        </main>
+    </div>
+    <%- include('../partials/script.ejs') %>
+</body>
+</html>
